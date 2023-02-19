@@ -42,7 +42,7 @@ import gsap from 'gsap';
 
 const ctx = ref();
 const main = ref();
-var tl = gsap.timeline({repeat: -1, yoyo: true});
+const tl = ref();
 
 const toggleTimeline = () => {
   tl.value.reversed(!tl.value.reversed());
@@ -50,10 +50,8 @@ const toggleTimeline = () => {
 
 onMounted(() => {
   ctx.value = gsap.context((self) => {
-
     const first = self.selector('.first');
     const second = self.selector('.second');
-
     tl.value = gsap
       .timeline()
       .to(first, { x: 120, rotation: 360 })
