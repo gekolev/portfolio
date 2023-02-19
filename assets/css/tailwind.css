@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwindcss/typography;
+
+body{
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    /* background-color: white; */
+    /* filter: invert(1); */
+}
+
+::selection {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
