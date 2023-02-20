@@ -162,13 +162,13 @@ onMounted(() => {
         const dot = self.selector('.dot');
         tl.value = gsap
             .timeline()
-            .from(dot, {
+            .to(dot, {
                 duration: 0.5, 
-                opacity:0, 
+                opacity: 1 , 
                 ease: 'power4.out', 
-                scale: 0.01, 
-                y: -50, 
-                x:-50, 
+                scale: 1, 
+                y: -75, 
+                x:-75, 
                 stagger: 0.009,})
             .reverse();
     }, main.value); // <- Scope!
@@ -192,5 +192,9 @@ onUnmounted(() => {
         max-width: 25vw;
         max-height: 25vw;
     }
+}
+
+.dot{
+    opacity: 0;
 }
 </style>

@@ -67,14 +67,5 @@ onUnmounted(() => {
 </script>
   
 <style lang="scss" scoped>
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    svg {
-        max-width: 25vw;
-        max-height: 25vw;
-    }
-}
 </style>
