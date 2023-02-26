@@ -21,6 +21,7 @@
   "dependencies": {
     "@studio-freight/lenis": "^0.2.28",
     "gsap": "^3.11.4",
+    "prettier": "^2.8.4",
     "sass": "^1.58.0"
   }
 }
