@@ -1,12 +1,12 @@
 {
 	"semi": false,
+	"editor.formatOnSave": true,
 	"singleQuote": false,
 	"tabWidth": 2,
-	"prettier.useTabs": true,
 	"bracketSameLine": true,
 	"trailingComma": "none",
 	"vueIndentScriptAndStyle": true,
 	"singleAttributePerLine": true,
-	"useTabs": true,
-	"printWidth": 120
+	"useTabs": false,
+	"printWidth": 150
 }
